@@ -1,0 +1,13 @@
+body {
+    background-color: slategrey;
+}
+
+header {
+    background-color: darkslategray;
+    color: wheat;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
