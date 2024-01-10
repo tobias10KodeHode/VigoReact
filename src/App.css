@@ -1,5 +1,5 @@
 body {
-    background-color: slategrey;
+    background-color: rgb(46, 46, 46);
 }
 
 header {
@@ -11,3 +11,8 @@ nav {
     display: flex;
     justify-content: space-evenly;
 }
+
+a {
+    text-decoration: none;
+    color: white;
+    }
