@@ -16,3 +16,10 @@ a {
     text-decoration: none;
     color: white;
     }
+
+footer {
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+    color: white;
+}

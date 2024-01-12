@@ -20,7 +20,9 @@ function App() {
           <Route path="/subPageOne" element={<SubPageOne />} />
           <Route path="/subPageTwo" element={<SubPageTwo />} />
         </Routes>
-        <footer>For å komme i kontakt, send en epost til tobias10.kodehode@gmail.com</footer>
+        <footer>
+          For å komme i kontakt, send en epost til tobias10.kodehode@gmail.com
+        </footer>
       </Router>
     </>
   );
