@@ -21,12 +21,12 @@ export const SubPageOne = () => {
 
       <div id="data_display_sp1">
         {data.slice(0, 20).map((todos) => (
-          <div>
-            {todos.id}:{" "}
-            {todos.completed
-              ? "This task is completed"
-              : "This task is not completed"}
-          </div>
+            <p>
+              {todos.id}:{" "}
+              {todos.completed
+                ? "This task is completed"
+                : "This task is not completed"}
+            </p>
         ))}
       </div>
     </main>

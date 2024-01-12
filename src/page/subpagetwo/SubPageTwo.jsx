@@ -17,7 +17,7 @@ export const SubPageTwo = () => {
   }, []);
   return (
     <body>
-      <h1>Dataen du ser her er liste med brukere.</h1>
+      <h1>Dataen du ser her er en liste med brukere og brukernavn.</h1>
       <div id="data_display_sp2">
         {data.map((user) => (
           <div>

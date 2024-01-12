@@ -4,6 +4,17 @@
   box-sizing: border-box;
 }
 
+h1 {
+  text-align: center;
+  width: 100%;
+  margin: 20px 0;
+}
+
 #data_display_sp1 {
   color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
 }

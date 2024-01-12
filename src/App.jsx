@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { MainPage } from "./page/mainpage/MainPage";
 import { SubPageOne } from "./page/subpageone/SubPageOne";
 import { SubPageTwo } from "./page/subpagetwo/SubPageTwo";
+import { Footer } from "./components/navigation/Footer";
 
 function App() {
   return (
@@ -20,9 +21,7 @@ function App() {
           <Route path="/subPageOne" element={<SubPageOne />} />
           <Route path="/subPageTwo" element={<SubPageTwo />} />
         </Routes>
-        <footer>
-          For å komme i kontakt, send en epost til tobias10.kodehode@gmail.com
-        </footer>
+        <Footer/>
       </Router>
     </>
   );
